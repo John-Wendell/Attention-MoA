@@ -75,7 +75,7 @@ bash eval_flask.sh
 
 We acknowledge and recommend other excellent works in the Mixture-of-Agents series:
 
-- **[MoA](https://github.com/togethercomputer/MoA)**: A novel approach that leverages the collective strengths of multiple LLMs using a layered architecture.
-- **[Self-MoA](https://github.com/wenzhe-li/Self-MoA)**: Investigates the benefits of mixing different LLMs and proposes aggregating outputs from the single top-performing LLM.
-- **[Sparse-MoA](https://github.com/David-Li0406/SMoA)**: Focuses on improving Multi-agent Large Language Models with Sparse Mixture-of-Agents.
-- **[RMoA](https://github.com/mindhunter01/RMoA)**: Residual Mixture-of-Agents that integrates residual connections to optimize efficiency and reliability.
+- **[MoA: ICLR'25](https://github.com/togethercomputer/MoA)**
+- **[Self-MoA](https://github.com/wenzhe-li/Self-MoA)**
+- **[Sparse-MoA: PAKDD'25](https://github.com/David-Li0406/SMoA)**
+- **[RMoA: ACL'26](https://github.com/mindhunter01/RMoA)**
