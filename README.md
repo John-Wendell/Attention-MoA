@@ -10,6 +10,8 @@
 
 Official code of `Attention-MoA: Enhancing Mixture-of-Agents via Inter-Agent Semantic Attention and Deep Residual Synthesis`
 
+The paper will be published on arXiv soon. Currently, it can be viewed in the repository: [AMoA_arxiv.pdf](AMoA_arxiv.pdf).
+
 
 ![Framework](image/framework.png)
 
