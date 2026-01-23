@@ -22,7 +22,7 @@ Official code of `Attention-MoA: Enhancing Mixture-of-Agents via Inter-Agent Sem
 
 - **Small-Scale Configuration:**
 
-  This setup on smaller, efficient models: *Mistral-Small-3.2-24B-Instruct-2506*, *Qwen3-32B*, *gemma-3-12b-it*, *Llama-4-Scout-17B-16E-Instruct*
+  This setup on smaller, efficient models: *Mistral-Small-3.2-24B-Instruct-2506*, *Qwen3-32B*, *gemma-3-12b-it*, *Llama-4-Scout-17B-16E-Instruct* and *gpt-oss-20b*
 
 ## Experimental Results
 
