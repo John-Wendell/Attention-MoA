@@ -1,10 +1,3 @@
-<div align="center">
-<img src="image/logo.png" width="200px">
-
-**Meituan LongCat Interaction Team**
-
-***Interaction Safety Group***
-</div>
 
 # Attention-MoA
 
@@ -71,11 +64,3 @@ bash eval_mtbench.sh
 ```
 bash eval_flask.sh
 ```
-## MoA Series
-
-We acknowledge and recommend other excellent works in the Mixture-of-Agents series:
-
-- **[MoA](https://github.com/togethercomputer/MoA)**: A novel approach that leverages the collective strengths of multiple LLMs using a layered architecture.
-- **[Self-MoA](https://github.com/wenzhe-li/Self-MoA)**: Investigates the benefits of mixing different LLMs and proposes aggregating outputs from the single top-performing LLM.
-- **[Sparse-MoA](https://github.com/David-Li0406/SMoA)**: Focuses on improving Multi-agent Large Language Models with Sparse Mixture-of-Agents.
-- **[RMoA](https://github.com/mindhunter01/RMoA)**: Residual Mixture-of-Agents that integrates residual connections to optimize efficiency and reliability.
