@@ -51,6 +51,12 @@ pip3 install -e ".[model_worker,llm_judge]"
 cd ..
 ```
 
+export openai api key and base url
+```bash
+export OPENAI_API_KEY="your_api_key"
+export OPENAI_API_BASE="your_base_url"
+```
+
 ### Evaluation on AlpacaEval2.0
 ```
 bash eval_alpaca.sh
