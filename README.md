@@ -43,10 +43,11 @@ We evaluate Attention-MoA on three benchmarks: AlpacaEval 2.0, MT-Bench, and FLA
 ### Preparation
 intall requirements
 ```
+pip3 install -r requirements.txt
 cd alpaca_eval
-pip install -e .
+pip3 install -e .
 cd FastChat
-pip install -e ".[model_worker,llm_judge]"
+pip3 install -e ".[model_worker,llm_judge]"
 cd ..
 ```
 
