@@ -397,6 +397,7 @@ def main(
     rounds: int = 1,
     num_proc: int = 16,
     cache_dir: str = "./cache",
+    load_from_hf: bool = True,
 ):
 
     if reference_paths is None:
@@ -409,16 +410,23 @@ def main(
     else:
         reference_models = reference_models.split(",")
     print('### begin load dataset')
-    # Load dataset from local
-    local_dataset_path = os.path.join("huggingface.co", "datasets", "tatsu-lab", "alpaca_eval", "alpaca_eval_gpt4_baseline.json")
+    if load_from_hf:
+        eval_set = datasets.load_dataset("tatsu-lab/alpaca_eval", "alpaca_eval_gpt4_baseline")["eval"]
+        try:
+            eval_set = eval_set.remove_columns(["output", "generator"])
+        except:
+            pass
+    else:
+        # Load dataset from local
+        local_dataset_path = os.path.join("huggingface.co", "datasets", "tatsu-lab", "alpaca_eval", "alpaca_eval_gpt4_baseline.json")
 
-    # Load local JSON file directly
-    with open(local_dataset_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+        # Load local JSON file directly
+        with open(local_dataset_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
 
-    # Convert to Hugging Face Dataset format
-    eval_set = datasets.Dataset.from_list(data)
-    eval_set = eval_set.remove_columns(["output", "generator"])
+        # Convert to Hugging Face Dataset format
+        eval_set = datasets.Dataset.from_list(data)
+        eval_set = eval_set.remove_columns(["output", "generator"])
     print('### finish load dataset')
     if len(reference_paths):
 
