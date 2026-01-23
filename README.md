@@ -80,4 +80,4 @@ We acknowledge and recommend other excellent works in the Mixture-of-Agents seri
 - **[MoA: ICLR'25](https://github.com/togethercomputer/MoA)**
 - **[Self-MoA](https://github.com/wenzhe-li/Self-MoA)**
 - **[Sparse-MoA: PAKDD'25](https://github.com/David-Li0406/SMoA)**
-- **[RMoA: ACL'26](https://github.com/mindhunter01/RMoA)**
+- **[RMoA: ACL'25](https://github.com/mindhunter01/RMoA)**
