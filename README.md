@@ -14,6 +14,16 @@ Official code of `Attention-MoA: Enhancing Mixture-of-Agents via Inter-Agent Sem
 ![Framework](image/framework.png)
 
 
+## Model Selection and Comparison
+
+- **Large-Scale Configuration:**
+
+  This setup utilizes SOTA large language models: *Claude-4.5-Sonnet*, *Gemini-2.5-Pro*, *GPT-4.1*, *Qwen-Max*, and *DeepSeek-V3.1*.
+
+- **Small-Scale Configuration:**
+
+  This setup on smaller, efficient models: *Mistral-Small-3.2-24B-Instruct-2506*, *Qwen3-32B*, *gemma-3-12b-it*, *Llama-4-Scout-17B-16E-Instruct*
+
 ## Experimental Results
 
 We evaluate Attention-MoA on three benchmarks: AlpacaEval 2.0, MT-Bench, and FLASK.
