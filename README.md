@@ -81,3 +81,15 @@ We acknowledge and recommend other excellent works in the Mixture-of-Agents seri
 - **[Self-MoA](https://github.com/wenzhe-li/Self-MoA)**
 - **[Sparse-MoA: PAKDD'25](https://github.com/David-Li0406/SMoA)**
 - **[RMoA: ACL'25](https://github.com/mindhunter01/RMoA)**
+
+## Citation
+
+If you find this work useful for your research, please cite our paper:
+
+```bibtex
+@article{wen2026attentionmoa,
+  title={Attention-MoA: Enhancing Mixture-of-Agents via Inter-Agent Semantic Attention and Deep Residual Synthesis},
+  author={Wen, Jianyu and Wei, Yang and Yu, Xiongxi and Xiao, Changxuan and Zeng, Ke},
+  journal={arXiv preprint arXiv:2601.16596},
+  year={2026}
+}
