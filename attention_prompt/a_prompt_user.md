@@ -8,10 +8,10 @@ The history of conversation is:
 The latest user query is:
 {user_query}
 
-The answer of another large language model is:
-{model_answer_other}
-
 The answer of yours is:
 {model_answer_own}
+
+The answer of another large language model is:
+{model_answer_other}
 
 Please give your suggestions to the answer of another large language model.
